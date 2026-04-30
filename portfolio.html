@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        /* Header Nav */
+        header {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            color: #4CAF50;
+        }
+        /* Container utama */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        /* Foto Profile & Nama */
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        /* Bagian Section umum */
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        /* Gambar Portfolio Horizontal */
+        .portfolio-gallery {
+            display: flex;
+            flex-direction: row; /* Membuatnya berjejer horizontal */
+            gap: 15px;
+            overflow-x: auto; /* Bisa digeser/scroll ke samping kalau gambar banyak */
+            padding-bottom: 10px;
+        }
+        .portfolio-gallery img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Header nav -->
+    <header>
+        <nav>
+            <a href="#profil">Profil</a>
+            <a href="#skill-project">Skill & Project</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- 2. Foto profile & nama -->
+        <section id="profil" class="profile">
+            <!-- Ganti src di bawah dengan link/nama file fotomu -->
+            <img src="https://via.placeholder.com/150" alt="Foto Profil">
+            <h1>Nama Lengkap Kamu</h1>
+            <p>Web Developer | Mahasiswa</p>
+        </section>
+
+        <!-- 3. Daftar skill dan projects -->
+        <section id="skill-project">
+            <h2>Daftar Skill</h2>
+            <ul>
+                <li>HTML, CSS, dan JavaScript Dasar</li>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>Desain Grafis (Canva/Figma)</li>
+            </ul>
+
+            <h2>Daftar Projects</h2>
+            <ul>
+                <li>Membuat website profil sekolah sederhana</li>
+                <li>Desain UI/UX aplikasi kasir toko</li>
+            </ul>
+        </section>
+
+        <!-- 4. Gambar portfolio (horizontal) -->
+        <section id="portfolio">
+            <h2>Gambar Portfolio</h2>
+            <div class="portfolio-gallery">
+                <!-- Ganti src di bawah dengan gambar hasil karyamu -->
+                <img src="https://via.placeholder.com/250x150?text=Project+1" alt="Project 1">
+                <img src="https://via.placeholder.com/250x150?text=Project+2" alt="Project 2">
+                <img src="https://via.placeholder.com/250x150?text=Project+3" alt="Project 3">
+                <img src="https://via.placeholder.com/250x150?text=Project+4" alt="Project 4">
+            </div>
+        </section>
+
+        <!-- 5. Kontak -->
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p><strong>Email:</strong> emailkamu@example.com</p>
+            <p><strong>No. HP/WhatsApp:</strong> 0812-3456-7890</p>
+            <p><strong>Instagram:</strong> <a href="#">@username_kamu</a></p>
+        </section>
+    </div>
+
+</body>
+</html>
