@@ -4,61 +4,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Rental</title>
+    <title>Toko Tanaman Hias</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="search">
-        <div class="title">
-            <h1>Car Rental</h1>
-            <p>Find the perfect car for your next adventure</p>
-            <hr>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="./logo tanaman hias.webp" alt="Logo">
+            <span>Toko Tanaman Hias</span>
         </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Plants</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="./benner.webp" alt="Banner" class="hero-banner">
+        <div class="hero-content">
+            <h1>Toko Tanaman Hias</h1>
+            <p>Find the perfect tanaman hias for your next adventure</p>
+        </div>
+    </div>
+
+    <!-- Search Form -->
+    <div id="search">
         <div class="form-container">
             <div class="form-group">
-                <label for="pickup">Rental Location:</label>
+                <label for="pickup">Plant Type:</label>
                 <select id="pickup" name="pickup">
-                    <option value="">Select Location</option>
-                    <option value="location1">Yogyakarta</option>
-                    <option value="location2">Bali</option>
+                    <option value="">Select type</option>
+                    <option value="location1">indoor</option>
+                    <option value="location2">outdoor</option>
                 </select>
             </div>
             <div class="form-group">
-                <label for="pickup-date">Rental Start Date:</label>
-                <input type="date" id="pickup-date" name="pickup-date">
+                <label for="pickup-date">Pot Size:</label>
+                <select id="pickup-date" name="pickup-date">
+                    <option value="">Select size</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
             </div>
             <div class="form-group">
-                <label for="return-date">Rental End Date:</label>
-                <input type="date" id="return-date" name="return-date">
+                <label for="return-date">Benefit:</label>
+                <select id="return-date" name="return-date">
+                    <option value="">Select benefit</option>
+                    <option value="air-purifier">Air Purifier</option>
+                    <option value="stress-relief">Stress Relief</option>
+                    <option value="aesthetic-only">Aesthetic Only</option>
+                </select>
             </div>
             <button type="submit">Search</button>
         </div>
     </div>
+    </div>
 
     <div class="car-list">
-        <h2>Car List</h2>
+        <h2>List tanaman hias</h2>
         <div class="car-item">
-            <img src="./bmw m5.webp" alt="Car 1">
-            <h3>BMW M5</h3>
-            <p>BMW M5 (generasi F90) versi LCI (Life Cycle Impulse atau facelift) bmw m5 ini ditenagai oleh mesin 4.4-liter V8 TwinPower Turbo yang mampu menghasilkan tenaga sebesar 600 hp hingga 625 hp pada varian Competition. Performa buas ini didukung oleh torsi maksimal sebesar 750 Nm yang disalurkan melalui transmisi 8-percepatan M Steptronic dengan Drivelogic. Salah satu keunggulan teknisnya adalah sistem penggerak M xDrive yang memungkinkan pengemudi beralih dari penggerak semua roda (AWD) ke penggerak roda belakang (RWD) murni, memberikan fleksibilitas berkendara yang luar biasa. Dengan kombinasi mesin dan teknologi tersebut, sedan mewah ini dapat melesat dari 0 hingga 100 km/jam hanya dalam waktu singkat, yakni sekitar 3,3 detik.</p>
+            <img src="./Monstera (Janda Bolong).webp">
+            <h3>Monstera (Janda Bolong):</h3>
+            <p>Monstera deliciosa adalah tanaman tropis asal Amerika Tengah yang dikenal dengan fenestrasi atau lubang alami pada daunnya yang lebar dan mengilap, sebuah adaptasi evolusi untuk memungkinkan cahaya matahari menembus ke bagian bawah tanaman serta menahan angin kencang di habitat aslinya. Tanaman merambat ini dapat tumbuh sangat besar di lingkungan yang lembap dengan cahaya matahari tidak langsung, serta memiliki akar gantung yang membantunya menempel pada pohon besar. Selain nilai estetikanya yang tinggi untuk dekorasi interior, Monstera juga relatif mudah dirawat dan memiliki kemampuan untuk menyaring polutan udara, menjadikannya pilihan favorit bagi penghobi tanaman hias.</p>
         </div>
         <div class="car-item">
-            <img src="./TOYOTA 2000GT.webp" alt="Car 2">
-            <h3>TOYOTA 2000GT</h3>
-            <p>Toyota 2000GT mengusung mesin 2.0-liter straight-six (6 silinder segaris) hasil pengembangan kolaborasi dengan Yamaha yang mampu menghasilkan tenaga sekitar 150 hp. Tenaga tersebut disalurkan ke roda belakang melalui transmisi manual 5-percepatan, memungkinkan mobil ini mencapai kecepatan maksimal hingga 220 km/jam, angka yang sangat luar biasa untuk era 1960-an. Selain performa mesinnya, mobil ini dikenal karena penggunaan suspensi independen di keempat roda serta rem cakram pada seluruh sisinya, menjadikannya salah satu mobil dengan teknologi paling mutakhir di zamannya. Kelangkaannya pun sangat tinggi karena hanya diproduksi sebanyak 351 unit di seluruh dunia, menjadikannya salah satu mobil koleksi paling berharga saat ini</p>
+            <img src="./Aglaonema.webp">
+            <h3>Aglaonema</h3>
+            <p>Aglaonema merupakan tanaman hias daun yang berasal dari daerah tropis dan subtropis di Asia, dikenal karena toleransinya yang sangat baik terhadap kondisi cahaya rendah serta perawatannya yang relatif mudah. Karakteristik utamanya terletak pada variasi warna daun yang memikat, mulai dari kombinasi hijau, perak, hingga semburat merah dan merah muda cerah yang muncul akibat mutasi genetik atau persilangan. Tanaman ini tumbuh optimal di lingkungan dengan kelembapan tinggi dan suhu hangat, serta memiliki kemampuan alami untuk membantu membersihkan udara di dalam ruangan dari zat polutan seperti benzena dan formaldehida. Karena keindahan coraknya dan kepercayaan masyarakat bahwa tanaman ini membawa keberuntungan, Aglaonema tetap menjadi primadona bagi para kolektor tanaman hias maupun penghuni kost yang ingin mempercantik hunian</p>
         </div>
         <div class="car-item">
-            <img src="./MAZDA COSMO 1970.webp" alt="Car 2">
-            <h3>MAZDA COSMO 1970</h3>
-            <p>Mazda Cosmo Sport ditenagai oleh mesin rotari twin-rotor (tipe 10A) berkapasitas 982cc yang mampu menghasilkan tenaga sekitar 110 hp hingga 128 hp pada seri puncaknya. Berbeda dengan mesin piston konvensional, mesin rotari ini memungkinkan mobil memiliki kap mesin yang sangat rendah dan desain aerodinamis yang futuristik pada masanya. Tenaga tersebut disalurkan melalui transmisi manual 4 atau 5-percepatan ke roda belakang, memberikan kemampuan akselerasi yang halus dengan suara mesin yang khas. Sebagai mobil pertama di dunia yang diproduksi secara massal dengan mesin dua rotor, Cosmo Sport tidak hanya menjadi simbol inovasi teknis Mazda, tetapi juga sebuah mahakarya desain yang menggabungkan estetika ruang angkasa dengan performa grand touring yang elegan.</p>
+            <img src="./Philodendron.webp">
+            <h3>Philodendron</h3>
+            <p>Sirih Gading merupakan tanaman merambat yang sangat populer karena ketahanannya yang luar biasa dan kemampuannya untuk tumbuh subur di berbagai kondisi lingkungan, baik di tanah maupun hanya dengan media air. Tanaman ini memiliki ciri khas daun berbentuk hati dengan corak variegasi kuning atau krem yang estetik, di mana intensitas warnanya sering kali bergantung pada jumlah cahaya matahari yang didapat. Selain berfungsi sebagai elemen dekorasi yang cantik saat digantung atau dirambatkan, Sirih Gading juga dikenal efektif dalam menyerap racun di udara seperti formaldehida dan karbon monoksida, menjadikannya pilihan tanaman indoor yang fungsional. Karena sifatnya yang sangat mudah dirawat dan sulit mati, tanaman ini sangat cocok bagi pemula yang baru mulai memelihara tanaman hias</p>
         </div>
         <div class="car-item">
-            <img src="./TOYOTA SOARER.webp" alt="Car 2">
-            <h3>TOYOTA SOARER</h3>
-            <p>Toyota Soarer generasi ini menawarkan berbagai pilihan mesin legendaris, mulai dari 2.5-liter inline-six 1JZ-GTE turbocharged yang sangat bertenaga, hingga mesin 4.0-liter V8 (1UZ-FE) yang memberikan tenaga sekitar 250 hp hingga 280 hp dengan karakter yang sangat halus. Tenaga tersebut disalurkan ke roda belakang melalui transmisi otomatis 4-percepatan atau manual 5-percepatan, menjadikannya mobil grand tourer yang nyaman namun tetap kencang. Mobil ini juga merupakan pionir dalam penggunaan teknologi canggih pada masanya, seperti sistem suspensi udara aktif dan panel instrumen digital yang futuristik. Desain eksteriornya yang membulat dan aerodinamis tetap terlihat menawan hingga saat ini, menjadikannya salah satu mobil JDM (Japanese Domestic Market) yang paling dicari oleh para penggemar otomotif.</p>
+            <img src="./Kuping Gajah (Anthurium).webp">
+            <h3>Kuping Gajah (Anthurium)</h3>
+            <p>Anthurium crystallinum adalah tanaman tropis yang sangat dihargai karena keindahan daunnya yang berbentuk jantung dengan tekstur beludru (velvety) berwarna hijau tua yang kontras dengan urat daun berwarna putih keperakan yang menonjol. Tanaman ini berasal dari Amerika Tengah dan Selatan, tumbuh optimal di lingkungan yang lembap dengan sirkulasi udara yang baik serta cahaya matahari tidak langsung untuk mencegah daunnya terbakar. Keunikan visual dari pola urat daunnya yang simetris menjadikannya salah satu tanaman hias favorit untuk memberikan kesan mewah dan eksotis di dalam ruangan. Perawatannya memerlukan perhatian khusus pada konsistensi penyiraman dan media tanam yang poros agar akar tetap sehat dan tidak mudah busuk.</p>
         </div>
     </div>
+    <div class="contact-section">
+        <h2>Hubungi Kami</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Anda" required>
+                <input type="email" placeholder="Email Anda" required>
+                <textarea placeholder="Pesan Anda" rows="5" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div class="whatsapp-section">
+                <p>Atau hubungi via WhatsApp:</p>
+                <a href="https://wa.me/6281234567890" class="whatsapp-btn" target="_blank">
+                    📱 WhatsApp: 082269298294
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Toko Tanaman Hias</h3>
+                <p>Menyediakan berbagai jenis tanaman hias berkualitas untuk mempercantik rumah Anda.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p>📍 Alamat: Jl. Raya Tanaman No. 123, Kota Bunga</p>
+                <p>📞 Telepon: (021) 123-4567</p>
+                <p>✉️ Email: info@tanamanhias.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Jam Operasional</h3>
+                <p>Senin - Sabtu: 08.00 - 18.00</p>
+                <p>Minggu: 09.00 - 15.00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Toko Tanaman Hias. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
